@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{html,js}",
     "./node_modules/tw-elements/js/**/*.js"
   ],
+  
   theme: {
     extend: {
       colors: {
@@ -11,6 +12,7 @@ module.exports = {
       }
     },
   },
+
   plugins: [require("tw-elements/plugin.cjs")],
   darkMode: "class"
 }
